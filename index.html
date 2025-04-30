@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Builder</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <header>
+    <h1>Resume Builder</h1>
+    <p>Build a resume in minutes</p>
+  </header>
+
+  <main>
+    <section id="resume-form">
+      <h2>Personal Information</h2>
+      <form id="resumeForm">
+        <label for="name">Full Name: </label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address"></textarea>
+        
+        <label for="profile">Professional Profile:</label>
+        <textarea id="profile" name="profile" placeholder="Write a brief summary of your professional background and career goals."></textarea>
+
+        <h2>Education</h2>
+        <label for="degree">Degree:</label>
+        <input type="text" id="degree" name="degree" required>
+        
+        <label for="institution">Institution Name:</label>
+        <input type="text" id="institution" name="institution" required>
+
+        <label for="grad-year">Graduation Year:</label>
+        <input type="number" id="grad-year" name="grad-year" required>
+
+        <h2>Work Experience</h2>
+        <label for="job-title">Job Title:</label>
+        <input type="text" id="job-title" name="job-title">
+        
+        <label for="company">Company Name:</label>
+        <input type="text" id="company" name="company">
+        
+        <label for="job-desc">Job Description:</label>
+        <textarea id="job-desc" name="job-desc"></textarea>
+        
+        <h2>Skills</h2>
+        <label for="skills">List of Skills (comma separated):</label>
+        <input type="text" id="skills" name="skills">
+        
+        <button type="submit">Generate Resume</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made By Zachary Quesnelle</p>
+  </footer>
+</body>
+</html>
+
